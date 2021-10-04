@@ -18,7 +18,7 @@ node{
     sh "scp -o strictHostkeychecking=no target/maven-web-application.war ec2-user@13.233.216.48:/opt/apache-tomcat-9.0.53/webapps"
 }
     }
-    
+    /*
    
     stage('SendEmailNotification'){
        mail bcc: 'gowdgirish7@gmail.com', body: '''Build over!!
@@ -27,7 +27,7 @@ Regards,
 Gireesh
 8328096158''', cc: 'gowdgirish7@gmail.com', from: '', replyTo: '', subject: 'Build over!!', to: 'gowdgirish7@gmail.com'
     }
-    
+    */
     
 }    
     
